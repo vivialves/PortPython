@@ -1,7 +1,9 @@
-""" A function that takes in a string of one or more words, and returns the same string,
-but with all five or more letter words reversed. """
-
 """
+A function that takes in a string of one or more words, and returns the same string,
+but with all five or more letter words reversed. 
+"""
+
+
 def spin_words(sentence):
     # sentence = input('Report a sentence: ')
     words = sentence.split(" ")
@@ -16,5 +18,3 @@ def spin_words(sentence):
 
 
 print(spin_words('testing'))
-
-"""
